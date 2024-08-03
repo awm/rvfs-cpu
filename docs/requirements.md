@@ -44,4 +44,4 @@ These are basic requirements that define bounds for the system design space.
     * Power supply (3.3 V and ground).
  * CPU modules shall use a 164-contact PCI Express connector to attach to the backplane. **Note: the interface will not
    be electrically compatible with PCIe.**
-   * *Rationale: This provides an inexpensive and widely available connector type as the interface point.
+   * *Rationale: This provides an inexpensive and widely available connector type as the interface point.*
