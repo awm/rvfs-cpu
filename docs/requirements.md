@@ -48,6 +48,8 @@ These are basic requirements that define bounds for the system design space.
     * Power supply (3.3 V and ground).
     * 32-bit register data bus.
     * 12-bit register selector.
+    * CPU reset line.
+    * Peripherals reset line.
  * CPU modules shall use a 164-contact PCI Express connector to attach to the backplane. **Note: the interface will not
    be electrically compatible with PCIe.**
    * *Rationale: This provides an inexpensive and widely available connector type as the interface point.*
@@ -59,6 +61,7 @@ These are basic requirements that define bounds for the system design space.
     * 16 interrupt lines (one dedicated to each socket).
     * Main clock.
     * Power supply (3.3 V and ground).
+    * Peripherals reset line.
  * Peripheral modules shall use a 98-contact PCI Express connector to attach to the backplane. **Note: the interface
    will not be electrically compatible with PCIe.**
    * *Rationale: This provides an inexpensive and widely available connector type as the interface point.*
