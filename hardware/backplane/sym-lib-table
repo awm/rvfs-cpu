@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UTC2000")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ul_UTC2000-MG/KiCADv6/2024-08-18_21-20-34.kicad_sym")(options "")(descr "Basic USB Type-C Controller"))
+  (lib (name "SC189x")(type "KiCad")(uri "${KIPRJMOD}/../libraries/SC189x/SC189x.kicad_sym")(options "")(descr "Switching Power Supply"))
+  (lib (name "PL133-97Qx")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ul_PL133-97QC-R/KiCADv6/2024-08-21_14-28-17.kicad_sym")(options "")(descr "Low-Power DC to 150MHz 1:9 Fanout Buffer IC"))
+  (lib (name "FR-1-27-80-xx")(type "KiCad")(uri "${KIPRJMOD}/../libraries/FR-1-27-80-xx/FR-1-27-80-xx.kicad_sym")(options "")(descr "Board-to-Board Connectors"))
+  (lib (name "Connector_PCIe")(type "KiCad")(uri "/home/awm/Documents/Projects/riscv-from-scratch/rvfs-cpu/hardware/libraries/PCIe/Connector_PCIe.kicad_sym")(options "")(descr ""))
+)
