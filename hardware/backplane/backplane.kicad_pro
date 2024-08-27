@@ -24,9 +24,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1358900|1346200|95067cbc-223b-4a4c-8804-b031a0f449bb|980adda3-e960-4068-881f-1eac7c5398be|/b4bde1b3-859c-4538-a8f1-0c6fb216a957/2dbaedeb-7bb5-4802-ab1e-2c7f0002df1f|/b4bde1b3-859c-4538-a8f1-0c6fb216a957/2dbaedeb-7bb5-4802-ab1e-2c7f0002df1f|/b4bde1b3-859c-4538-a8f1-0c6fb216a957/2dbaedeb-7bb5-4802-ab1e-2c7f0002df1f"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -496,6 +494,14 @@
     [
       "fed1dab9-843e-48a0-8fac-f08e20cf5064",
       "RCLK Fanout"
+    ],
+    [
+      "02751c41-9887-46ac-ba3e-339a69d3b022",
+      "Control Port"
+    ],
+    [
+      "80efe0f8-2474-4386-a086-ae1b246c469a",
+      "Bus Ports"
     ]
   ],
   "text_variables": {}

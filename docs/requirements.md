@@ -41,10 +41,12 @@ These are basic requirements that define bounds for the system design space.
     * 32-bit memory data bus.
     * 28-bit memory address bus.
     * Memory read/write enable lines.
+    * Memory access size lines.
+    * Memory latch line.
     * 4-bit socket ID.
     * 16 interrupt lines (one dedicated to each socket).
     * Main clock.
-    * Reference clock.
+    * Reference/register clock.
     * Power supply (3.3 V and ground).
     * 32-bit register data bus.
     * 12-bit register selector.
@@ -58,12 +60,13 @@ These are basic requirements that define bounds for the system design space.
     * 32-bit memory data bus.
     * 28-bit memory address bus.
     * Memory read/write enable lines.
+    * Memory access size lines.
+    * Memory latch line.
     * 4-bit socket ID.
     * 16 interrupt lines (one dedicated to each socket).
     * Main clock.
     * Power supply (3.3 V and ground).
     * Main reset line.
-    * UART RX and TX for optional console.
  * Peripheral modules shall use a 98-contact PCI Express connector to attach to the backplane. **Note: the interface
    will not be electrically compatible with PCIe.**
    * *Rationale: This provides an inexpensive and widely available connector type as the interface point.*
