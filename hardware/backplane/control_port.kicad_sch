@@ -2150,7 +2150,7 @@
 				)
 			)
 		)
-		(property "Value" "SFH11-PBPC-D13-RA-BK"
+		(property "Value" "Control"
 			(at 135.89 120.65 0)
 			(effects
 				(font
@@ -2167,7 +2167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE123%20.100%20SFH11%20SERIES%20FEMALE%20HDR%20ST%20RA.pdf"
 			(at 134.62 101.6 0)
 			(effects
 				(font
@@ -2177,6 +2177,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x13, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicates" ""
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SFH11-PBPC-D13-RA-BK"
 			(at 134.62 101.6 0)
 			(effects
 				(font

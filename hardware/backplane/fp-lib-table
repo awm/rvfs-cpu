@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "UTC2000-MG")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ultralibrarian/ul_UTC2000-MG/KiCADv6/footprints.pretty")(options "")(descr "Basic USB Type-C Controller"))
+  (lib (name "PL133-97QC-R")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ultralibrarian/ul_PL133-97QC-R/KiCADv6/footprints.pretty")(options "")(descr "Low-Power DC to 150MHz 1:9 Fanout Buffer IC"))
+  (lib (name "USB4215-03-A")(type "KiCad")(uri "${KIPRJMOD}/../libraries/snapeda/USB4215-03-A")(options "")(descr "Type C USB 2.0 Connector"))
+  (lib (name "10018783_10113TLF")(type "KiCad")(uri "${KIPRJMOD}/../libraries/snapeda/10018783_10113TLF")(options "")(descr "PCIe x16 Connector"))
+  (lib (name "10018783_10202TLF")(type "KiCad")(uri "${KIPRJMOD}/../libraries/snapeda/10018783_10202TLF")(options "")(descr "PCIe x8 Connector"))
+  (lib (name "1337020")(type "KiCad")(uri "${KIPRJMOD}/../libraries/snapeda/1337020")(options "")(descr "Board-to-Board connectors (80 pos., female, 1.27mm)"))
+  (lib (name "YC248-JR-0733RL")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ultralibrarian/YC248_JR_0733RL/KiCADv6/footprints.pretty")(options "")(descr "Resistor Pack"))
+  (lib (name "SC189x")(type "KiCad")(uri "${KIPRJMOD}/../libraries/original/SC189x/SC189x.pretty")(options "")(descr "Switching Power Supply"))
+)

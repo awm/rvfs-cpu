@@ -1,0 +1,2 @@
+# Exclude any subdirectories to avoid posting SnapEDA libraries.
+/*/

@@ -152,7 +152,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x06_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -166,7 +166,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x06_Counter_Clockwise"
+			(property "Value" "Conn_02x06_Odd_Even"
 				(at 1.27 -10.16 0)
 				(effects
 					(font
@@ -192,7 +192,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -219,7 +219,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x06_Counter_Clockwise_1_1"
+			(symbol "Conn_02x06_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -7.493)
 					(end 0 -7.747)
@@ -382,7 +382,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -400,7 +400,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -418,7 +418,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -436,7 +436,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -454,7 +454,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -472,7 +472,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -490,7 +490,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -508,7 +508,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -526,7 +526,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -544,7 +544,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -562,7 +562,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -1743,7 +1743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 93.98 96.52 0)
 			(effects
 				(font
@@ -1752,7 +1752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://multimedia.3m.com/mws/media/43897O/3mtmpinstriphdr-100-100x-100-929-series-ts0769.pdf"
 			(at 93.98 96.52 0)
 			(effects
 				(font
@@ -1762,6 +1762,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicates" ""
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "929647-01-02-EU"
 			(at 93.98 96.52 0)
 			(effects
 				(font
@@ -1852,6 +1870,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 92.71 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e20b028-e2a6-4c71-b016-a955de6c163e")
+		(property "Reference" "J2"
+			(at 93.98 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "I2C"
+			(at 93.98 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/202065/ph2-xx-ua-data-sheet.pdf"
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicates" ""
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PH2-12-UA"
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9066fa15-573a-4163-8bac-95f45f46edb8")
+		)
+		(pin "8"
+			(uuid "4b089b63-5e5e-413b-b89d-f82d82f65cc2")
+		)
+		(pin "1"
+			(uuid "d83368a3-8c34-429b-a47a-c391c1774feb")
+		)
+		(pin "7"
+			(uuid "f7bd4795-bbee-4725-acb1-c02df6f96d07")
+		)
+		(pin "2"
+			(uuid "a84cf107-81ca-42a7-a2e6-9bb9797cd571")
+		)
+		(pin "9"
+			(uuid "febf964a-95d2-4e51-9ede-8f0440d2a5a8")
+		)
+		(pin "12"
+			(uuid "9609fb12-738a-4646-879b-5f4ed639a9ad")
+		)
+		(pin "5"
+			(uuid "4c876e5d-df90-4cd1-96b6-b97d8df8d4ed")
+		)
+		(pin "11"
+			(uuid "9a9af359-6dfa-4f32-8848-adbaa763796b")
+		)
+		(pin "4"
+			(uuid "0ba23494-8a57-445c-b629-65169bbd17b5")
+		)
+		(pin "10"
+			(uuid "5f576e74-3c36-466b-b8de-25560ba46b80")
+		)
+		(pin "3"
+			(uuid "70f62bb4-aa25-4222-89c4-c8979f5fdea2")
+		)
+		(instances
+			(project ""
+				(path "/b4bde1b3-859c-4538-a8f1-0c6fb216a957/bd7ce088-b816-4c7b-96cf-5c9cefb5e628"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 85.09 138.43 0)
 		(unit 1)
@@ -1879,7 +2012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.312 138.43 90)
 			(effects
 				(font
@@ -1888,7 +2021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 85.09 138.43 0)
 			(effects
 				(font
@@ -1898,6 +2031,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 85.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicates" ""
+			(at 85.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CR0402-FX-5101GLF"
 			(at 85.09 138.43 0)
 			(effects
 				(font
@@ -1916,103 +2067,6 @@
 			(project ""
 				(path "/b4bde1b3-859c-4538-a8f1-0c6fb216a957/bd7ce088-b816-4c7b-96cf-5c9cefb5e628"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Counter_Clockwise")
-		(at 92.71 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0643d35-55fb-4df8-a741-72aa81491852")
-		(property "Reference" "J2"
-			(at 93.98 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I2C"
-			(at 93.98 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "bb8133f7-8ea8-4fc6-9feb-81b52bf6aadc")
-		)
-		(pin "8"
-			(uuid "cb510098-8214-4be4-aefe-fd36e6ee43ed")
-		)
-		(pin "1"
-			(uuid "292c70c4-f126-4a9c-8dbf-bece2fe35c6e")
-		)
-		(pin "6"
-			(uuid "f195d35b-6e99-4e73-a98c-a8d37590e4c5")
-		)
-		(pin "2"
-			(uuid "2a520951-a6f0-4ee4-8c1c-a70474cd5518")
-		)
-		(pin "9"
-			(uuid "efd96cfd-f1e6-4172-bfdb-604e5a8bb810")
-		)
-		(pin "4"
-			(uuid "857fb9ed-7064-4af8-b57a-78c0f4959712")
-		)
-		(pin "3"
-			(uuid "fdbbefba-10d8-4afb-9758-08bd09c4be55")
-		)
-		(pin "12"
-			(uuid "8d6627de-5218-4710-8b79-8cde529374c8")
-		)
-		(pin "10"
-			(uuid "0aaf2507-da12-4456-b518-eed5e04f2cbf")
-		)
-		(pin "11"
-			(uuid "3d2ef4e3-6228-4f18-b3f6-a01b1f938ab5")
-		)
-		(pin "5"
-			(uuid "14166284-617b-432b-a3d2-8144738722a8")
-		)
-		(instances
-			(project ""
-				(path "/b4bde1b3-859c-4538-a8f1-0c6fb216a957/bd7ce088-b816-4c7b-96cf-5c9cefb5e628"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2046,7 +2100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.092 138.43 90)
 			(effects
 				(font
@@ -2055,7 +2109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 102.87 138.43 0)
 			(effects
 				(font
@@ -2065,6 +2119,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 102.87 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicates" ""
+			(at 102.87 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CR0402-FX-5101GLF"
 			(at 102.87 138.43 0)
 			(effects
 				(font
