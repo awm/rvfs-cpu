@@ -33,6 +33,9 @@ These are basic requirements that define bounds for the system design space.
  * The power supply voltage for the processor shall be 3.3 V.
     * *Rationale: This voltage node is extremely common and permits use of a wide range of components.  Many parts
       operate at 3.3 V or lower, or at 2-3 V and higher, placing this in a sweet spot for compatibility.*
+ * The total power draw of the entire system, including attached and running debugger/programmer shall not exceed 15 W.
+    * *Rationale: This corresponds to the maximum of 3 A at 5 V which can be provided by a single USB 2.0 compliant
+      USB-C cable.*
 
 ## Phase 0
 
@@ -40,7 +43,7 @@ These are basic requirements that define bounds for the system design space.
  * The backplane shall provide at least the following signals to each CPU module:
     * 32-bit memory data bus.
     * 28-bit memory address bus.
-    * Memory read/write enable lines.
+    * Memory data direction line.
     * Memory access size lines.
     * Memory latch line.
     * 4-bit socket ID.
@@ -59,7 +62,7 @@ These are basic requirements that define bounds for the system design space.
  * The backplane shall provide at least the following signals to each peripheral module:
     * 32-bit memory data bus.
     * 28-bit memory address bus.
-    * Memory read/write enable lines.
+    * Memory data direction line.
     * Memory access size lines.
     * Memory latch line.
     * 4-bit socket ID.
