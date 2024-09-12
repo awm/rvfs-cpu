@@ -2928,7 +2928,7 @@
 		)
 		(uuid "a75e6663-6c00-4bcb-849c-c1c1a68e5138")
 	)
-	(hierarchical_label "~{CPURST}"
+	(hierarchical_label "~{CRST}"
 		(shape input)
 		(at 196.85 20.32 0)
 		(fields_autoplaced yes)
@@ -5698,7 +5698,7 @@
 			)
 			(uuid "13b656fe-03bc-48bf-bd2b-53d7a44e12d2")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 59.69 157.48 180)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 			)
 			(uuid "288412f4-5b65-4b40-a2cc-8b32949ac6d8")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 59.69 182.88 180)
 			(effects
 				(font
@@ -5992,7 +5992,7 @@
 			)
 			(uuid "b65d1365-06c9-4727-a7f9-e037b782277f")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 59.69 132.08 180)
 			(effects
 				(font
@@ -6139,7 +6139,7 @@
 			)
 			(uuid "d550af5f-3872-40ff-86a9-f65f0a3d20ed")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 191.77 81.28 180)
 			(effects
 				(font
@@ -6286,7 +6286,7 @@
 			)
 			(uuid "9bbefea4-13f7-4d76-9d1a-ab114231baaa")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 191.77 106.68 180)
 			(effects
 				(font
@@ -6433,7 +6433,7 @@
 			)
 			(uuid "dce879ae-66fb-49d0-b280-6003777d273f")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 191.77 55.88 180)
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 			)
 			(uuid "2e01c528-ea2e-46e5-9163-346a72698be5")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 59.69 55.88 180)
 			(effects
 				(font
@@ -6727,7 +6727,7 @@
 			)
 			(uuid "dbc4695a-4734-477d-9c90-2591ef53e001")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 59.69 81.28 180)
 			(effects
 				(font
@@ -6874,7 +6874,7 @@
 			)
 			(uuid "1439b9a6-e9c9-4d84-be6b-ef21220fc353")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 59.69 106.68 180)
 			(effects
 				(font
@@ -7021,7 +7021,7 @@
 			)
 			(uuid "b8a38cc6-0fad-4334-ae8a-7cf3a0b38b0e")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 191.77 132.08 180)
 			(effects
 				(font

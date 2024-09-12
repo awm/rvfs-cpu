@@ -2620,7 +2620,7 @@
 		)
 		(uuid "fe7cc3bd-e5a5-4f1a-929d-54f79a0d66bd")
 	)
-	(hierarchical_label "~{CPURST}"
+	(hierarchical_label "~{CRST}"
 		(shape output)
 		(at 172.72 55.88 0)
 		(fields_autoplaced yes)
@@ -5086,8 +5086,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~{CPURST}"
-			(at 163.83 87.122 0)
+		(property "Value" "~{CRST}"
+			(at 165.1 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)

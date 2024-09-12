@@ -1790,7 +1790,7 @@
 		)
 		(uuid "0f5518b7-d096-4511-9edf-16eef60f20d3")
 	)
-	(hierarchical_label "~{CPURST}"
+	(hierarchical_label "~{CRST}"
 		(shape bidirectional)
 		(at 157.48 109.22 0)
 		(fields_autoplaced yes)

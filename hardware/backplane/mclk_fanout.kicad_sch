@@ -3754,7 +3754,7 @@
 		)
 		(uuid "1205ec1e-7037-45a0-83d4-3471b55d212f")
 	)
-	(hierarchical_label "~{CPURST}"
+	(hierarchical_label "~{CRST}"
 		(shape input)
 		(at 26.67 44.45 180)
 		(fields_autoplaced yes)

@@ -1594,7 +1594,7 @@
 		)
 		(uuid "b9f513d2-e18b-4db7-9d7a-77221a3ee12f")
 	)
-	(hierarchical_label "~{CPURST}"
+	(hierarchical_label "~{CRST}"
 		(shape input)
 		(at 154.94 46.99 180)
 		(fields_autoplaced yes)
@@ -2485,7 +2485,7 @@
 			)
 			(uuid "6ab5f7d3-4a3a-4aa1-ab70-bae29bcd08fe")
 		)
-		(pin "~{CPURST}" input
+		(pin "~{CRST}" input
 			(at 165.1 46.99 180)
 			(effects
 				(font

@@ -26,10 +26,10 @@ The write line `/WR` determines if the operation is a read or write:
 |   `0` | Data on `D` is being transferred to the address on `A` from the CPU. |
 |   `1` | Data on `D` is being transferred from the address on `A` to the CPU. |
 
-The `/DREADY` signal indicates when the value on `D` is ready to be consumed.  This line will be driven by the CPU when
+The `/DRDY` signal indicates when the value on `D` is ready to be consumed.  This line will be driven by the CPU when
 performing a write, and by the peripheral when a read is requested.
 
-The `/AREADY` signal indicates when the value on `A` is ready to be consumed.  This line will be driven by the CPU once
+The `/ARDY` signal indicates when the value on `A` is ready to be consumed.  This line will be driven by the CPU once
 a valid address is present.
 
 Finally, the `/FAULT` line is used by the peripheral to indicate that a memory fault has occurred.  This could indicate
@@ -39,11 +39,11 @@ an access to an invalid address, or an unsupported transfer size, for example.
 
 | Signal(s)   | Driven By       | Description                                                      |
 | ----------- | --------------- | ---------------------------------------------------------------- |
-| `/AREADY`   | CPU             | Address bus has settled                                          |
-| `/DREADY`   | CPU, Peripheral | Data bus has settled; from CPU on write, from peripheral on read |
+| `/ARDY`     | CPU             | Address bus has settled                                          |
+| `/DRDY`     | CPU, Peripheral | Data bus has settled; from CPU on write, from peripheral on read |
 | `/FAULT`    | Peripheral      | Memory fault has occurred                                        |
 | `/WR`       | CPU             | Transfer direction                                               |
-| `A[28:0]`   | CPU             | Memory address                                                   |
+| `A[27:0]`   | CPU             | Memory address                                                   |
 | `D[31:0]`   | CPU, Peripheral | Transfer data; from CPU on write, from peripheral on read        |
 | `HALF[1:0]` | CPU             | Transfer size                                                    |
 

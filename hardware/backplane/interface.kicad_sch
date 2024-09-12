@@ -1619,7 +1619,7 @@
 		)
 		(uuid "6ab7d2a3-2e88-4830-9466-f3947372dc26")
 	)
-	(hierarchical_label "~{CPURST}"
+	(hierarchical_label "~{CRST}"
 		(shape bidirectional)
 		(at 138.43 44.45 0)
 		(fields_autoplaced yes)
@@ -2280,7 +2280,7 @@
 			)
 			(uuid "9f054036-09e7-4435-b9a5-920794a7de66")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 128.27 44.45 0)
 			(effects
 				(font

@@ -17,13 +17,12 @@
 		(members "[0..15]")
 	)
 	(bus_alias "MEM"
-		(members "A[0..27]" "D[0..31]" "RE" "WE" "HALFWORD" "BYTE" "LATCH")
+		(members "A[0..27]" "D[0..31]" "HALF[0..1]" "~{ARDY}" "~{DRDY}" "~{FAULT}"
+			"~{WR}"
+		)
 	)
 	(bus_alias "REG"
-		(members "SEL[0..11]" "D[0..31]" "DIR")
-	)
-	(bus_alias "SID"
-		(members "[0..3]")
+		(members "R[0..11]" "D[0..31]" "~{WR}")
 	)
 	(bus_alias "UART"
 		(members "RX" "TX")
@@ -655,7 +654,7 @@
 				(justify left top)
 			)
 		)
-		(pin "~{CPURST}" input
+		(pin "~{CRST}" input
 			(at 165.1 146.05 0)
 			(effects
 				(font
@@ -891,7 +890,7 @@
 			)
 			(uuid "c87aae4b-ddac-45aa-9d31-1c93873089f5")
 		)
-		(pin "~{CPURST}" bidirectional
+		(pin "~{CRST}" bidirectional
 			(at 198.12 92.71 90)
 			(effects
 				(font
@@ -1147,7 +1146,7 @@
 			)
 			(uuid "8a337f12-1f58-428f-816b-fda624ea6989")
 		)
-		(pin "~{CPURST}" input
+		(pin "~{CRST}" input
 			(at 205.74 31.75 180)
 			(effects
 				(font
@@ -1235,6 +1234,16 @@
 			)
 			(uuid "7064c86b-92ae-4ffb-b700-5a954b7f09a4")
 		)
+		(pin "~{CRST}" output
+			(at 195.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8d7e0787-9e36-4d29-a483-73e6937ee8e0")
+		)
 		(pin "~{MRST}" output
 			(at 195.58 34.29 0)
 			(effects
@@ -1243,17 +1252,7 @@
 				)
 				(justify right)
 			)
-			(uuid "1448f9eb-f4e7-4b98-8d38-5a844bb390a7")
-		)
-		(pin "~{CPURST}" output
-			(at 195.58 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "eaa0db5a-174b-4aa9-8d72-99105df44e81")
+			(uuid "7cc81fb6-7dde-47a9-8616-97ea68d753fa")
 		)
 		(instances
 			(project "backplane"
